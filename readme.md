@@ -25,17 +25,20 @@
 `Schrijf hier een klein logboekje met je voortgang per week.`
 
 ### Week-1
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+`Wat heb je gedaan? Wat ging goed? Wat kon beter?
+Ik ben in week 1 vooral onderzoek gedaan en tutorials gekeken, aangezien ik coderen heel lastig vind.`
 
 ### Week-2
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+`Wat heb je gedaan? Wat ging goed? Wat kon beter?
+Ik ben in week 2 gestart met het maken van regen op mijn scherm, ik was begonnen met p5.js en ben toen ook brackets gaan gebruiken. Nadat ik klaar was met de regen ben ik nog sneeuw en zon met wolken gaan maken.`
 
 ### Week-3
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+`Wat heb je gedaan? Wat ging goed? Wat kon beter?
+Ik ben in week 3 gaan onderzoeken en ook gelijk gaan uitproberen hoe ik een tijdlijn kan maken en het met een knop kan laten bewegen.`
 
 
 ## Bronnenlijst
 
-* `Link naar bron 1`
+* `https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw`
 * `Link naar bron 2`
 * `Link naar bron 3`
