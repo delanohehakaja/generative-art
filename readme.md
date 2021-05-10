@@ -7,18 +7,18 @@
 * **Klas: vid-2**
 * **Minor: Visual Interface Design**
 * **Favoriete dier: arend**`
-* **Startniveau: blauw** `blauw/rood/zwart`
+* **Startniveau: blauw**
 
 ## Concept
 
-`Beschrijf in het algemeen je concept van je project.`
+`Op je scherm zie je een balk met de 4 seizoenen eronder beschreven. Door middel van de cirkel die je kan verschuiven op de balk zal je het weer van de 4 seizoenen te zien krijgen.`
 
 ## Features
 
-`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
+`De interactie is dat je de schuifbare cirkel op de balk kan verschuiven en zo de 4 seizoenen ziet.`
 
 ## Onderzoek & inspiratie
-`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+`Dit concept kwam tot stand door corona. Door de corona zit ik bijna elke dag in mijn kamer of het nou voor mijn studie is of ter ontspanning binnen zit te gamen, want er is niet veel meer buiten te doen. Je kan alleen maar naar buiten kijken en hopen dat het weer zo snel mogelijk levendig op straat wordt net zoals voorheen. Dat bracht mij op dit idee, je kijkt van binnen uit je raam en ziet de tijd en seizoenen voorbij vliegen.`
 
 ## Voortang
 
