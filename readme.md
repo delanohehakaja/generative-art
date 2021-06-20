@@ -15,7 +15,7 @@
 
 ## Features
 
-`De interactie is dat je verschillende functies op je laptop kan gebruiken om te bepalen wat voor weer het wordt.`
+`De interactie is dat je de functies: mouseIsPressed, mouseX of keyIsPressed op je laptop kan gebruiken om te bepalen wat voor weer het wordt.`
 
 ## Onderzoek & inspiratie
 `Dit concept kwam tot stand door corona. Door de corona zit ik bijna elke dag in mijn kamer of het nou voor mijn studie is of ter ontspanning binnen zit te gamen, want er is niet veel meer buiten te doen. Je kan alleen maar naar buiten kijken en hopen dat het leven straat weer wordt net zoals voorheen (heel druk dus). Dat bracht mij op dit idee, je kijkt van binnen uit je raam en ziet de tijd en seizoenen voorbij vliegen.`
