@@ -1,37 +1,75 @@
-/* 👇 Start writing your p5.js code here */
-
-var rain = [];
-
+let x = 25;
+let y = -25;
 
 function setup() {
-  createCanvas(400, 400);
-  for ( var i = 0; i < 100; i++) {
-    rain [i] = new Rain;
-  }
+    createCanvas(400, 400);
 }
 
 function draw() {
-  background(220);
-  for ( var i = 0; i < 100; i++) {
-  rain[i].show();
-  rain[i].down();
-  }
+    background(220);
+
+    //snow
+    if (mouseIsPressed) {
+        noStroke();
+        fill('white');
+        ellipse(50, y, 20);
+        ellipse(100, y + 80, 15);
+        ellipse(150, y - 50, 15);
+        ellipse(250, y + 10, 20);
+        ellipse(300, y + 100, 15);
+        ellipse(75, y - 200, 20);
+        ellipse(145, y - 280, 15);
+        ellipse(200, y - 160, 15);
+        ellipse(275, y - 110, 20);
+        ellipse(325, y - 200, 15);
+        y++;
+    }
+
+    //rain
+    if (mouseX < 300) {
+        noStroke();
+        fill('darkgrey');
+        rect(50, y, 2, 10);
+        rect(100, y + 80, 2, 10);
+        rect(150, y - 30, 2, 10);
+        rect(200, y + 50, 2, 10);
+        rect(250, y + 80, 2, 10);
+        rect(300, y - 30, 2, 10);
+        rect(350, y + 50, 2, 10);
+        rect(75, y - 80, 2, 10);
+        rect(125, y - 100, 2, 10);
+        rect(175, y - 160, 2, 10);
+        rect(225, y - 180, 2, 10);
+        rect(275, y - 150, 2, 10);
+        rect(325, y - 130, 2, 10);
+        rect(375, y - 150, 2, 10);
+        y++;
+    }
+
+    //loop
+    if (y > height) {
+        y = 0;
+    }
+
+    //summer
+    if (keyIsPressed) {
+        background('blue');
+        fill('yellow');
+        ellipse(45, 45, 80);
+        fill('white');
+        ellipse(x + 150, 60, 100, 50);
+        ellipse(x + 200, 60, 100, 50);
+        ellipse(x + 175, 40, 80, 50);
+        ellipse(x + 350, 50, 100, 50);
+        ellipse(x + 400, 60, 100, 50);
+        x++;
+    }
+
+    if (x > width) {
+        x = -400;
+    }
 }
 
-function Rain() {
-  this.x = random(0, width);
-  this.y = random(0, height);
-  
-  this.show = function () {
-    noStroke();
-    fill(255);
-    ellipse(this.x, this.y, 2, 10);
-  }
-  this.down = function() {
-    this.speed = random(5,20);
-    this.y = this.y + this.speed;
-    if (this.y > height) {
-      this.y = 0;
-    }
-  }
+function speed() {
+    y.speed(2);
 }
